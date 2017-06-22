@@ -1,7 +1,8 @@
 @import 'utility';
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 $base-text-size: 16px;
-$base-font-family: sans-serif;
+$base-font-family: raleway;
 
 html {
   @include full-height;
@@ -29,7 +30,7 @@ body {
 
 .segmenter__background,
 .segmenter__box {
-  background-image: url(https://images.unsplash.com/photo-1467541473380-93479a5a3ffa?dpr=1&auto=format&fit=crop&w=1199&h=729&q=80&cs=tinysrgb&crop=);
+  background-image: url(http://wallpapercave.com/wp/gagXccV.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -46,7 +47,7 @@ body {
 }
 
 .segmenter__body h1 {
-  font-family: 'Kumar One', cursive;
-  font-size: 7vw;
+  font-family: Raleway;
+  font-size: 10vw;
   white-space: nowrap;
 }

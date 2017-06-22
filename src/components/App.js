@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import { Motion, spring } from 'react-motion'
+import Header from './Header'
 
 const animate = (val) => spring(val, {
-  stiffness: 53,
-  damping: 27
+  stiffness: 60,
+  damping: 28
 })
 
 class App extends Component {
@@ -66,6 +67,7 @@ class App extends Component {
                   <div className='segmenter__box' style={{
                     clipPath: `polygon(70% 12%, 90% 12%, 90% 22%, 70% 22%)`
                   }} />
+                  <Header />
                 </div>
               }
             </Motion>
@@ -85,7 +87,7 @@ class App extends Component {
               <h1 style={{
                 letterSpacing,
                 opacity
-              }}>SEGMENT EFFECT</h1>
+              }}>Garret Morales</h1>
             }
           </Motion>
         </div>
